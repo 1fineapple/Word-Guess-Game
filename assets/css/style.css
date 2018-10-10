@@ -1,1 +1,26 @@
 
+
+.titlecentre{
+    text-align: center;
+    font-family: monospace;
+    color: pink;
+    font-size: 60px;
+
+}
+
+.lead {
+    text-align: center;
+    color: lightgray;
+}
+
+.jumbotron-fluid{
+    background: green
+}
+
+#wrong-guesses{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#wins{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

@@ -5,6 +5,10 @@
 
   <title>Dinosaur Hangman</title>
 
+  <script src="assets/javascript/game.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -13,26 +17,33 @@
 <body>
 
   <header>
-    <img src="assets/images/" class="header-img" alt="t-rex">
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4 titlecentre">Dinosaur Hangman</h1>
+            <p class="lead">We all have a dinosaur deep within us just trying to get out.</p>
+          </div>
+        </div>
+
   </header>
 
-  <div class="container">
-    <h3>Press any key to get started!</h3>
+  <div class="container">      
+    
     <div class="row">        
       <div class="col-md-5">
-        <div class="game">         
-          <p><span id="win-counter">Wins: </span></p>
-          <p><span id="loss-counter">Losses: </span></p>
-          <p><span id="wrong-guesses">Wrong Guesses: </span></p>
-          <p><span id="guesses-left">Guesses Remaining: </span></p>
+        <div class="game"> 
+            <img src="assets/images/t-rex.jpeg" class=" img-fluid" alt="t-rex">        
+                    
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-6">
         <div class="play">
-          <h3>Guess the singer or band!</h3>
+          <h3>Guess the Dinosaur</h3>
           <h3><span id="wordToGuess">_ _ _ _ _ _ _</span></h3>
+          <h3><span id="answer">_ _ _ _ _ _ _</span></h3>
+          <h3><span id="alreadyguessed">_ _ _ _ _ _ _</span></h3>
           <br>
-          <p id="disclosure">" * " denotes blank space(s)</p>
+          <p><span id="wrong-guesses">Wrong Guesses: </span></p>
+          <p><span id="win-counter">Wins: </span></p>
         </div>
       </div>
     </div>
