@@ -4,37 +4,39 @@
 
 var wins = 0;
 var dinowords = ["trex", "allosaurus", "raptor, godzilla"];
-var questions = [
-//       { q: "This dinosaur has little arms", a: ["t,r,e,x"] },
-//       { q: "definitely a carnivore", a: "a l l o s a u r u s" },
-//       { q: "jurassic park fav", a: "r", "a", "p", "t", "o", r" },
-//       { q: "runnnnn", a: },
-]
-
-var table = ["Image1", "Image2", "Image3"];
-      var images = [];
-
-
+var image = ["Image1", "Image2", "Image3"];
 var word = dinowords[Math.floor(Math.random() * dinowords.length)];
-
+var countAttempts= 0
 
 var answerArray = [];
+var alreadyguessed=[];
+
+
  for (var i = 0; i < word.length; i++) {
- answerArray[i] = "_";
+ answerArray[i] = "_"; 
+
 }
 
-// var alreadyguessed?
 
-// var questionIndex = 0;
+  // here you have push them into a string
 
 
-  //loop 2
+
 var word= "trex";
-var question= "";
+var image = 0
+
+
+// while(dinowords[i]) {
+//   text += dinowords[i] + "<br>";
+//     i++;
 
 
 
-var alreadyguessed=[];
+  // here you have print out (push) out- unless we are doing it down below?
+
+  // var remainingletters = word.length
+  // while(remainingLetters >= 0) {
+  
 
   
 
@@ -64,7 +66,7 @@ var alreadyguessed=[];
          }
        }
      }
-
+    
     
            checkLetter();
      
