@@ -2,7 +2,7 @@
 
 
 
-var wins = 0;
+var wins = this.sessionstorage.getitem;/location.reload():
 
 var dinowords = ["trex", "allosaurus", "raptor", "godzilla"];
 var image = src= ["assets/images/t-rex.jpeg","assets/images/allosaurus.png","assets/images/raptor.jpeg","assets/images/godzilla.jpeg" ];
@@ -30,6 +30,7 @@ document.getElementById("answer").innerHTML = answerArray.join(" ");
 // while or else (!gameDone)?? goes where/ how to reference beginning of loop? {
 
 // }
+
 
 
 function checkLetter() {   
